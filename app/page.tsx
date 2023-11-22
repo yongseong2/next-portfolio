@@ -1,10 +1,13 @@
-import Link from 'next/link';
+'use client'
+import MDXLayout from './components/MdxLayout';
+import Portfolio from '/app/markdown/portfolio.mdx';
 
 export default function Home() {
   return (
     <main>
-      <h1 className='text-9xl'>넥스트 </h1>
-      <Link href={'/hello'}>md preview 확인하기</Link>
+      <MDXLayout>
+        <Portfolio/>
+      </MDXLayout>
     </main>
   );
 }

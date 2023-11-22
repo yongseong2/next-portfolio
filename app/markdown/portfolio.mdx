@@ -1,0 +1,362 @@
+# 개발 이력서
+
+![profile](https://github.com/yongseong2/next-portfolio/assets/122865525/30b95135-9789-4d1b-bdb4-96fabfaa4bf9)
+
+## Contact & Channels
+
+---
+
+✉️ **Email** | **ancjs369@naver.com**
+
+📱 **Phone** | **010-9380-1663**
+
+*🐱* **Github** | **[https://github.com/yongseong2](https://github.com/yongseong2)**
+
+🎂**Birth** | **1996-09-28**
+
+눈에 보이는 페이지에 생동감을 불어넣는 매력에 빠져 프론트엔드 개발자가 되었습니다. 특히, **디자인을 보며 구현 과정에 대해 깊이 고민하는 것을 좋아합니다**. 이 과정에서 얻은 아이디어로 사용자에게 새로운 경험을 제공하는 것에 집중합니다.
+
+또한, 가까운 미래에는 다양한 개발자들과 함께 성장하면서, 오픈소스 프로젝트에 기여하여 프론트엔드 발전에 일조하고 싶습니다.
+
+# 💻  Projects
+
+---
+
+## ZigLog ⇒ 회고
+
+2023.10.09~2023.11.20
+
+📘**지식그래프로 확인하는 문서 툴**
+
+노트 내용(지식)에도 각각 연결관계가 있음을 생각하며 지식 그래프를 고안했습니다. 노트 참조 관계 그래프, 폴더 트리 그래프, 모든 사용자의 그래프를 제공하는 문서 관리 서비스를 개발하였습니다. ⇒ 
+
+
+**팀 프로젝트 역할배분**
+
+- 프론트엔드 4명 / 백엔드 2명
+- 
+
+**프로젝트 결과물**
+
+- URL: [https://ziglog.site/](https://ziglog.site/)
+- 깃허브: [https://github.com/BittleBeatles/Ziglog](https://github.com/BittleBeatles/Ziglog)
+- 스토리북: [https://655bfb9bedd347a191c144ec-djsebrweum.chromatic.com/?path=/story/components-userpage-sidebar-bookmarklist--bookmark-check-box-example](https://655bfb9bedd347a191c144ec-djsebrweum.chromatic.com/?path=/story/components-userpage-sidebar-bookmarklist--bookmark-check-box-example)
+- 시연영상: [https://www.youtube.com/watch?v=tOWOvG0jEx8](https://www.youtube.com/watch?v=tOWOvG0jEx8)
+
+**활용한 기술스택**
+
+- `Typescript` `Next.js`   `Cypress` `Storybook` `Redux-toolkit` `TailWind CSS`  `Yarn Berry`  `Three.js` `return-fetch`
+
+**담당 역할**
+
+- 프론트엔드 개발 담당
+- 공통 UI 컴포넌트 개발(폴더 탐색, 북마크, 인풋, 버튼)
+- 지식 그래프 개발 및 커스텀(2D, 3D, 모든 유저 노트를 포함하는 그래프)
+- 에러 핸들링 페이지 적용 및 API 요청 오류 발생 시 안내문구 출력
+- 랜딩페이지 퍼블리싱 및 SEO 적용 - 구글에 Ziglog 검색시 상위 노출
+- Next.js 기반 캐시 최적화 : return-fetch 라이브러리를 활용한 네트워크 요청 모듈화( - [https://return-fetch.myeongjae.kim/](https://return-fetch.myeongjae.kim/))
+- 프로젝트 초기 설정 및 컴포넌트 주도 개발 환경 구축 (eslint, prettier, next.config.js, storybook, tsconfig.json, cypress)
+- 라이트모드/다크모드 구현
+
+주요개발사항
+
+**개인페이지**
+
+![main-light](https://github.com/yongseong2/next-portfolio/assets/122865525/f686baaf-93c1-4eb6-83a8-a3fe00abd8f5)
+
+![main-folder-light](https://github.com/yongseong2/next-portfolio/assets/122865525/70f1b481-d08a-4659-be24-343b5edfc4db)
+
+- 폴더탐색기: 각각의 폴더 또는 노트 컴포넌트를 재귀적으로 호출하였습니다. 특히, 폴더 생성시에는 각각의 부모폴더 id를 파악하는 로직을 호출하여 사용자 입장에서 생각되는 위치에 폴더가 생성되도록 구현하였습니다.
+- 2D 그래프 커스텀을 위해 CanvasRenderingContext2D 객체를 조작하였습니다. 또한 3D로 구체를 렌더링 하기위해 Three.js의 객체를 생성하였습니다.
+
+**검색페이지**
+
+![search-dark](https://github.com/yongseong2/next-portfolio/assets/122865525/ce08e586-d616-4774-ba56-a741a526c276)
+
+- 모든 사용자의 노트 참조관계를 그래프로 확인 할 수 있습니다.
+- 검색결과에 무한 스크롤링을 적용하여 공개된 노트를 조회할 수 있습니다.
+
+**Atomic 디자인 기반의 CDD 진행으로 Storybook 사용**
+
+![storybook](https://github.com/yongseong2/next-portfolio/assets/122865525/7a0165d7-c4aa-4348-a494-f1b608a85a9b)
+
+- 각 컴포넌트의 사용법과 속성을 명확하게 해, 팀원들이 컴포넌트를 쉽게 이해하고 사용할 수 있도록 하였습니다.
+
+---
+
+## 베네픽
+
+2023.08.21~2023.10.06 (7주)
+
+💳**위치 기반 카드 추천 서비스**
+
+**삼성 청년SW아카데미 핀테크 트랙 우수상**
+
+사용자의 주변 가맹점 위치를 파악하고 해당 가맹점에서 최대 혜택을 받을 수 있는 신용카드를 추천하는 서비스
+
+**팀 프로젝트**
+
+- 프론트엔드 2명 / 백엔드 4명
+- 프론트엔드 개발 담당
+
+**프로젝트 결과물**
+
+- 깃허브: [https://github.com/Benepick/Benepick](https://github.com/Benepick/Benepick)
+- 시연영상: [https://www.youtube.com/watch?v=KMJX3GOS7eo](https://www.youtube.com/watch?v=KMJX3GOS7eo)
+- 플레이스토어: [https://play.google.com/store/apps/details?id=com.benepick&hl=ko-KR](https://play.google.com/store/apps/details?id=com.benepick&hl=ko-KR)
+
+**활용한 기술스택**
+
+- `Typescript` `React Native` `React-Navigation` `Redux-toolkit`
+
+**담당 역할**
+
+- build.gradle 설정 최적화 및 플레이스토어 배포
+- axios의 인터셉터, 인스턴스를 활용한 네트워크 요청 모듈화
+- 위치기반 추천 페이지(권한 승인을 통한 조회)
+- 혜택 및 소비 내역 페이지(월별 소비 내역 조회, SVG를 활용한 그래프 구현)
+- 챗봇 페이지(답변 내용 기반의 옵션 선택 기능)
+- 혜택 검색 페이지
+
+**챗봇**
+
+![benepick1](https://github.com/yongseong2/next-portfolio/assets/122865525/bde0182a-82bc-425b-ae10-67e2a40a2d98)
+
+![benepick2](https://github.com/yongseong2/next-portfolio/assets/122865525/03d8c4fe-d415-43cd-9ab9-d2dc1d677c0b)
+
+- 카드의 다양한 혜택 정보를 사용자에게 효과적으로 전달하고자 챗봇 서비스를 도입을 하였습니다.
+
+**메인페이지**
+
+![benepick3](https://github.com/yongseong2/next-portfolio/assets/122865525/624afc83-c487-4240-be19-2b410e7760e0)
+
+![benepick4](https://github.com/yongseong2/next-portfolio/assets/122865525/127b537d-33ef-428b-8079-958f5cd5d5b2)
+
+- 앱을 실행하는 순간 간편 로그인이 활성화 된다면, 자신의 위치에 따른 카드 추천을 받을 수 있도록 메인 페이지를 구현하였습니다.
+
+**혜택 및 소비 내역 그래프**
+
+![benepick5](https://github.com/yongseong2/next-portfolio/assets/122865525/0a696da1-642a-402d-ae8b-39f3b3f12240)
+
+![benepick6](https://github.com/yongseong2/next-portfolio/assets/122865525/b6752846-0b12-4ca1-a18c-892b50720db8)
+
+![benepick7](https://github.com/yongseong2/next-portfolio/assets/122865525/f29065d2-6f9f-4f9f-b0cc-8f8aafddebdc)
+
+- 그래프 라이브러리를 활용하는 대신, 세밀한 조정과 특별한 디자인을 위해 SVG를 직접 코드로 생성하였습니다.
+
+**장소 기반 혜택 검색**
+
+![benepick8](https://github.com/yongseong2/next-portfolio/assets/122865525/ad97b4ff-5f9b-4c2e-a872-ce9943612ddf)
+
+![benepick9](https://github.com/yongseong2/next-portfolio/assets/122865525/45105500-a2eb-4f97-a3c9-96951c6f63c6)
+
+- 사용자가 장소를 검색할 때, 보유한 카드의 최대 혜택을 추천하며 해당 장소에서 최고 혜택을 제공하는 다른 카드도 함께 제시됩니다.
+
+---
+
+## 입찰왕
+
+2023.07.04~2023.08.18 (7주)
+
+🪙**쉽고 재미있는 라이브 경매 플랫폼, 입찰왕**
+
+**삼성 청년SW아카데미 웹기술 트랙 우수상**
+
+라이브 영상 경매 서비스를 개발하였습니다. 판매자는 경매방 관리를, 구매자는 물품을 실시간으로 입찰하며 상호작용할 수 있는 환경을 제공하였습니다.
+
+**팀 프로젝트**
+
+- 프론트엔드 2명 / 백엔드 4명
+- 프론트엔드 개발 담당
+
+**프로젝트 결과물**
+
+- 깃허브: [https://github.com/bid-king/bidking](https://github.com/bid-king/bidking)
+- 시연영상: [https://www.youtube.com/watch?v=iyUf4gSRbaA](https://www.youtube.com/watch?v=iyUf4gSRbaA)
+
+**활용한 기술스택**
+
+- `Typescript` `React, Redux-toolkit` `Emotion`  `Yarn berry`  `Storybook` `React-query`
+
+**담당 역할**
+
+- 메인페이지 및 Scroll event 수신 시 쓰로틀링을 이용한 API 요청으로 무한 스크롤 경매방 탐색 기능
+- Openvidu를 활용한 판매자 실시간 화면 송출 기능(1:N)
+- Socket.io를 활용한 경매방 구매자간의 채팅 기능
+- SSE를 활용한 알림 수신 기능 및 알림 내역 조회 기능
+- 토큰 기반의 회원 인증 및 갱신 기능(Access Token, Refresh Token 활용)
+- 경매방 생성, 수정, 삭제 기능
+- 판매자와 구매자를 구분하는 다크모드와 라이트모드 기능
+
+**경매진행 페이지**
+
+![auction-buyer](https://github.com/yongseong2/next-portfolio/assets/122865525/f07bc820-6cce-4b61-9c82-2375d9a93db4)
+
+![aution-seller](https://github.com/yongseong2/next-portfolio/assets/122865525/be49b8ec-3a09-46db-b63a-a519d4bd53bb)
+
+- 판매자는 Openvidu로 상품을 실시간 송출하고, 구매자는 동시에 이를 시청하여 다수와 함께 경매에 참여합니다.
+- 판매자와 구매자 간의 실시간 채팅을 지원하며, 판매자는 채팅방 참여자의 닉네임을 확인할 수 있습니다.
+
+**메인페이지 (구매자 페이지)**
+
+![seller-main-bookmarked](https://github.com/yongseong2/next-portfolio/assets/122865525/88f5cc92-cffd-4dac-9330-46bade97f4aa)
+
+- 메인페이지의 경매 목록 탐색에 카테고리 및 무한 스크롤링 기능을 도입하였습니다.
+
+**Yarn Berry 도입 및 최적화**
+
+- 의존성 설치 시간을 40% 줄이고, 빌드 속도를 20% 향상하였습니다. CI 과정의 속도 개선으로 인해, 배포 과정이 빠르게 진행되어 신속한 서비스 제공이 가능해졌습니다.
+- Yarn Berry의 Zero Install 기능을 도입하면서 프로젝트 실행 및 관리 효율성이 향상되었습니다.
+
+---
+
+## MOVIE101
+
+2023.05.17~2023.05.25 (2주)
+
+🎞️**나만의 영화취향 분석으로 위한 월드컵 챌린지**
+
+32강 월드컵 챌린지를 통해 영화 또는 배우를 선택하고 최종 선택지 기반으로 영화를 추천하는 서비스 입니다.
+
+
+**팀 프로젝트**
+
+- 프론트엔드 1명 / 백엔드 1명
+- 프론트엔드 개발 담당
+
+**프로젝트 결과물**
+
+- 깃허브: [https://github.com/yongseong2/movie101_final_pjt](https://github.com/yongseong2/movie101_final_pjt)
+
+**활용한 기술스택**
+
+- `Vue.js`  `Vuex`
+
+**담당 역할**
+
+- 영화 월드컵 페이지
+- 영화 추천 및 검색 페이지
+- 커뮤니티 게시판 페이지
+- 회원가입 페이지
+- 반응형 웹으로 구성
+
+**영화 검색 및 추천 서비스와 회원 관리**
+
+![movie101-1](https://github.com/yongseong2/next-portfolio/assets/122865525/20c19c4b-4883-4b06-adfe-78def95693e4)
+
+- 사용자가 영화 제목으로 검색하면 동적으로 영화 포스터와 함께 검색 결과를 제공하였습니다.
+
+![movie101-2](https://github.com/yongseong2/next-portfolio/assets/122865525/8e31a1d0-3e2f-4ddd-9f25-e82b27b5ce5a)
+
+- 사용자의 선호를 반영하여 랜덤 영화 추천, 마음에 드는 영화 및 배우 기반의 추천 기능을 구현하였습니다.
+- 회원 관리 시스템을 통해 회원가입, 로그인, 로그아웃 기능을 구현하였고, 비회원에 대한 서비스 제한 기능을 추가하였습니다.
+
+# 🛠  Skills
+
+---
+
+### 📕 **Language**
+
+**Typescript**
+
+- 확장성을 위해 Typescript 사용을 주저하지 않습니다. 객체 타입과 주요 tsconfig의 설정을 이해하고 있습니다.
+
+**Javascript(ES6)**
+
+- ES6 자바스크립트 문법을 주로 활용합니다.
+- 코드의 재사용성과 가독성 향상을 위해 함수형 프로그래밍을 사용합니다.
+
+### 📗 **Framework/Library**
+
+**React**
+
+- 훅의 효과적인 활용을 고민하며 사용합니다. 특히, useMemo와 useCallback을 이용한 성능 최적화 작업을 좋아합니다.
+- Redux, useContext 을 사용하여 전역 상태를 설계해본 경험이 있습니다.
+- 컴포넌트 디자인 패턴을 사용하며 개발에 적용합니다.
+
+**Next js 13**
+
+- 이를 활용하여 data fetching을 효율적으로 구현하였습니다. SSR, SSG, ISR 적용을 고민하여 페이지를 설계한 경험이 있습니다.
+- SEO를 적용하여 배포 후 서비스 검색 결과를 상위에 노출 시킨 경험이 있습니다.
+
+**React Native**
+
+- React와 차별되는 React Native CLI의 주요 컴포넌트와 속성을 공식 문서를 통해 ~~학습하였습니다.~~
+- 플레이스토어 배포를 위해 검토사항을 고려하여 오류 테스팅과 빌드 최적화 과정을 경험하였습니다.
+
+**Vue**
+
+- methods, computed, 그리고 watch 간의 차이점을 이해하며 프로젝트를 진행해본 경험이 있습니다.
+
+### 🖍Style
+
+**Emotion**
+
+- props를 통한 동적 CSS를 구현하기 위해 도입하였습니다.
+- keyframes를 활용하여 애니메이션을 구현한 경험이 있습니다.
+
+**Tailwind CSS**
+
+- 공식문서의 스타일을 학습하며 프로젝트에 적용하였습니다. tailwind.config 설정해본 경험이 있습니다.
+
+### 📘**Package Manager**
+
+**Yarn Berry**
+
+- React와 Next js에 도입하여 CI 향상, 고스트 디펜던시 제거, 그리고 Zero Install 기능을 활용하여 개발자 경험을 향상한 경험이 있습니다.
+- 프로젝트의 요구사항에 맞게 Webpack과 Babel 설정을 수정 및 최적화한 경험이 있습니다.
+
+### 📔**Collaboration  & Tool**
+
+**Storybook**
+
+- Storybook을 사용해 컴포넌트 주도 개발을 수행합니다.
+
+**Git**
+
+- Git Flow를 이해하며 master, develop, feature, hotfix 등의 브랜치 전략을 수립하여 개발을 진행하였습니다.
+- 컨벤션 링크
+
+**JIRA**
+
+- 애자일 기반의 프로젝트 관리를 진행하였습니다. 스프린트 단위로 일정을 조율하며 협업하였습니다.
+
+# 🎈 Experiences
+
+---
+
+## SSAFY 9기
+
+[https://www.ssafy.com/](https://www.ssafy.com/ksp/jsp/swp/swpMain.jsp)
+2023.01 ~
+
+- 삼성청년SW아카데미
+- Python, 자료구조, 알고리즘, JavaScript, Django 등 기초적인 Web 개발 역량 학습 과정
+    
+    
+
+# 🎓  Education
+
+---
+
+## 서경대학교
+
+2016.03 ~ 2021.02.
+
+- 산업경영시스템공학 전공
+
+# 📜  English
+
+---
+
+## TOEIC
+
+2022.10.30
+
+- **730**
+
+## TOEIC SPEAKING
+
+2022.11.20
+
+- **Intermediate Mid 3 (Speaking Score 130)**
