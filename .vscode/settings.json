@@ -16,5 +16,6 @@
   },
   "files.autoSave": "onFocusChange",
   "editor.formatOnSave": true,
-  "css.lint.unknownAtRules": "ignore"
+  "css.lint.unknownAtRules": "ignore",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.cjs"
 }
