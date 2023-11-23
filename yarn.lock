@@ -4042,6 +4042,7 @@ __metadata:
     postcss: "npm:^8"
     prettier: "npm:^3.1.0"
     prism-react-renderer: "npm:^2.3.0"
+    re-resizable: "npm:^6.9.11"
     react: "npm:^18"
     react-dom: "npm:^18"
     rehype-highlight: "npm:^7.0.0"
@@ -4631,6 +4632,16 @@ __metadata:
   version: 1.2.3
   resolution: "queue-microtask@npm:1.2.3"
   checksum: 900a93d3cdae3acd7d16f642c29a642aea32c2026446151f0778c62ac089d4b8e6c986811076e1ae180a694cedf077d453a11b58ff0a865629a4f82ab558e102
+  languageName: node
+  linkType: hard
+
+"re-resizable@npm:^6.9.11":
+  version: 6.9.11
+  resolution: "re-resizable@npm:6.9.11"
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
+  checksum: d7361b63e8f819f821b34bb3234a8606f086155b739737243d3f0f7ad82fd66642aff6f90fbc5b2df2f81f8572ab3289b9c17a5142c39b98cd14194e391932f2
   languageName: node
   linkType: hard
 

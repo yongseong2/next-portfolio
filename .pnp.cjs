@@ -43,6 +43,7 @@ const RAW_RUNTIME_STATE =
           ["postcss", "npm:8.4.31"],\
           ["prettier", "npm:3.1.0"],\
           ["prism-react-renderer", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:2.3.0"],\
+          ["re-resizable", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:6.9.11"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:18.2.0"],\
           ["rehype-highlight", "npm:7.0.0"],\
@@ -4882,6 +4883,7 @@ const RAW_RUNTIME_STATE =
           ["postcss", "npm:8.4.31"],\
           ["prettier", "npm:3.1.0"],\
           ["prism-react-renderer", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:2.3.0"],\
+          ["re-resizable", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:6.9.11"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:18.2.0"],\
           ["rehype-highlight", "npm:7.0.0"],\
@@ -5537,6 +5539,32 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../AppData/Local/Yarn/Berry/cache/queue-microtask-npm-1.2.3-fcc98e4e2d-10c0.zip/node_modules/queue-microtask/",\
         "packageDependencies": [\
           ["queue-microtask", "npm:1.2.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["re-resizable", [\
+      ["npm:6.9.11", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/re-resizable-npm-6.9.11-6010215a23-10c0.zip/node_modules/re-resizable/",\
+        "packageDependencies": [\
+          ["re-resizable", "npm:6.9.11"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:6.9.11", {\
+        "packageLocation": "./.yarn/__virtual__/re-resizable-virtual-1ddb061580/3/AppData/Local/Yarn/Berry/cache/re-resizable-npm-6.9.11-6010215a23-10c0.zip/node_modules/re-resizable/",\
+        "packageDependencies": [\
+          ["re-resizable", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:6.9.11"],\
+          ["@types/react", "npm:18.2.38"],\
+          ["@types/react-dom", "npm:18.2.16"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
