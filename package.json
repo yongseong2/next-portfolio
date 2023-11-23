@@ -16,6 +16,7 @@
     "github-markdown-css": "^5.4.0",
     "next": "14.0.3",
     "prism-react-renderer": "^2.3.0",
+    "re-resizable": "^6.9.11",
     "react": "^18",
     "react-dom": "^18",
     "rehype-highlight": "^7.0.0",
