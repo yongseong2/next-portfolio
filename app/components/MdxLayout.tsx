@@ -15,7 +15,18 @@ interface MDXProps {
 }
 
 const components = {
-  // img:
+  img:({ ...props }) => (
+    <img
+      {...props}
+      alt={props.alt}
+      style={{
+        maxWidth: '100%',
+        maxHeight: '500px',
+        display: 'block',
+        margin: '10px auto',
+      }}
+    />
+  ),
 };
 
 export default function MDXLayout({ children }: MDXProps) {
