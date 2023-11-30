@@ -1,9 +1,9 @@
 "use client";
 import Box from "./components/Box";
-import MDXLayout from "./components/MdxLayout";
 import SideBar from "./components/SideBar";
-import Portfolio from "/app/markdown/portfolio.mdx";
 import { Resizable } from "re-resizable";
+import Title from "./components/Title";
+import Content from "./components/Content";
 
 export default function Home() {
   return (
@@ -28,11 +28,10 @@ export default function Home() {
       >
         <SideBar />
       </Resizable>
-      <div className="py-5 pr-5">
+      <div className="w-full py-5 pr-5">
         <Box>
-          <MDXLayout>
-            <Portfolio />
-          </MDXLayout>
+          <Title />
+          <Content />
         </Box>
       </div>
     </main>
