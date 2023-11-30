@@ -7,6 +7,9 @@ import rehypeHighlight from "rehype-highlight";
 const nextConfig = {
   reactStrictMode: true,
   pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
+  images: {
+    domains: ["github.com"],
+  },
 };
 
 const withMDX = createMDX({
